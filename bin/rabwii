@@ -28,15 +28,15 @@ require "rabwii"
 include RabWii::GetText
 
 def parse(args=ARGV, logger=nil)
-  Rabbit::Console.parse!(args, logger) do |opts, options|
+  Rabbit::Console.parse!(args, logger) do |parser, options|
     options.version = RabWii::VERSION
     options.rabbit_uri = options.druby_uri
 
-    opts.separator ""
+    parser.separator ""
 
-    opts.on("--rabbit-uri=URI",
-            _("Rabbit's dRuby URI"),
-            "(#{options.rabbit_uri})") do |uri|
+    parser.on("--rabbit-uri=URI",
+              _("Rabbit's dRuby URI"),
+              "(#{options.rabbit_uri})") do |uri|
       options.rabbit_uri = uri
     end
   end
