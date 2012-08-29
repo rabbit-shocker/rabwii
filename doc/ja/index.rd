@@ -6,8 +6,8 @@ title: RabWii
 
 RabWiiはWii RemoteでRabbitを操作するためのツールです。
 
-次のスライドを表示するにはキーボードまたはマウスで操作しなければいけま
-せん。すると、発表中はずっとパソコンの前に立っていなければいけません。
+次のページを表示するにはキーボードまたはマウスで操作しなければいけませ
+ん。すると、発表中はずっとパソコンの前に立っていなければいけません。
 RabWiiを使うとWii RemoteでRabbitを操作できます。そうすると、もうパソコ
 ンの前にいる必要はありません。舞台の中央で発表することができます。
 
@@ -38,11 +38,11 @@ RubyGemsでインストールできます。関連パッケージも一緒にイ
 RabbitとRabWiiはどちらを先に起動しても大丈夫です。以下のようにRabbitを
 起動します。
 
-  % rabbit https://raw.github.com/shockers/rabbit/master/sample/theme-bench.rab
+  % rabbit rabbit-theme-bench-ja.gem
 
 RabbitとRabWiiの両方を起動したらWii RemoteでRabbitを操作してください。
 
-スライドを移動できましたか？
+ページを移動できましたか？
 それでは発表の準備をしっかりして発表に備えてください。
 
 == より詳しい使い方
@@ -50,7 +50,7 @@ RabbitとRabWiiの両方を起動したらWii RemoteでRabbitを操作してく�
 通常はここまで説明した使い方で十分ですが、それでは足りないこともありま
 す。そのようなときのためにより詳しい使い方を説明します。
 
-=== 違うホストで起動しているRabbitにコメントを送る
+=== 違うホストで起動しているRabbitを操作する
 
 TODO
 
@@ -91,9 +91,6 @@ laterとすることに同意してもらったこととします。また、そ
 RabWiiのリポジトリは
 ((<GitHub|URL:https://github.com/shockers/rabwii/>))にあります。
 
-((<Rabbitの開発ページユーザーページ
-|URL:http://rabbit-shockers.org/ja/users.html>))を参照してください。
-
 === コミットメール
 
 以下のメーリングリストにコミットメール毎に変更点が流れます。メーリング
@@ -108,11 +105,9 @@ RabWiiのリポジトリは
 
 === バグの報告方法
 
-ご意見ご要望不具合報告等は作者へのメール、メーリングリスト（メーリング
-リストについては((<Rabbitのユーザーページ
-|URL:http://rabbit-shockers.org/ja/users.html>))を参照してください）、
-((<GitHubのIssues|URL:https://github.com/shockers/rabbirack/issues>))を
-ご利用ください。
+ご意見ご要望不具合報告等は作者へのメール、メーリングリスト、((<GitHubの
+Issues|URL:https://github.com/shockers/rabbirack/issues>))をご利用くだ
+さい。
 
 == 感謝
 
