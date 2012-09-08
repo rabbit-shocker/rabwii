@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.name = "rabwii"
   spec.version = RabWii::VERSION.dup
   spec.rubyforge_project = "rabbit"
-  spec.homepage = "http://rabbit-shockers.org/en/rabwii/"
+  spec.homepage = "http://rabbit-shocker.org/en/rabwii/"
   spec.authors = ["Kiwamu Okabe", "Kouhei Sutou"]
   spec.email = ["kiwamu@debian.or.jp", "kou@cozmixng.org"]
   spec.summary = "RabWii is a Wii Remote adapter for Rabbit"
