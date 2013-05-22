@@ -106,7 +106,7 @@ RabWiiのリポジトリは
 === バグの報告方法
 
 ご意見ご要望不具合報告等は作者へのメール、メーリングリスト、((<GitHubの
-Issues|URL:https://github.com/rabbit-shocker/rabbirack/issues>))をご利用くだ
+Issues|URL:https://github.com/rabbit-shocker/rabwii/issues>))をご利用くだ
 さい。
 
 == 感謝
