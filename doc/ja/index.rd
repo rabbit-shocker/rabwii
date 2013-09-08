@@ -97,8 +97,8 @@ RabWiiのリポジトリは
 リストに参加することで開発状況を確認できます。メーリングリストに参加す
 るには以下のようなメールを送信してください。
 
-  To: rabbit-commit@ml.cozmixng.org
-  Cc: null@cozmixng.org
+  To: commit@ml.rabbit-shocker.org
+  Cc: null@rabbit-shocker.org
   Subject: 登録
 
   登録
